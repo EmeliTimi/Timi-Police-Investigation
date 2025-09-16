@@ -1,5 +1,6 @@
 # 🕵️ Murder Mystery Investigation – SQL Case Study  
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/82cda764-c5ad-46e2-8934-57a5084414ad" />
+![2212 w056 n005 69B p1 69](https://github.com/user-attachments/assets/345da7b4-378c-452d-ae19-5bd8147681ac)
+
 
 
 ## Objective  
