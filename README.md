@@ -1,4 +1,6 @@
 # 🕵️ Murder Mystery Investigation – SQL Case Study  
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/82cda764-c5ad-46e2-8934-57a5084414ad" />
+
 
 ## Objective  
 To solve a **murder case in SQL City (January 15, 2018)** using **SQL queries** on a relational police database, mirroring real-world detective workflows.  
