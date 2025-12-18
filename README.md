@@ -1,5 +1,6 @@
 # 🕵️ Murder Mystery Investigation – SQL Case Study  
-![2212 w056 n005 69B p1 69](https://github.com/user-attachments/assets/345da7b4-378c-452d-ae19-5bd8147681ac)
+<img width="1024" height="1536" alt="Murder case investigation flowchart" src="https://github.com/user-attachments/assets/4e2e90da-bd86-4f34-834a-afe2021d9e22" />
+
 
 
 
