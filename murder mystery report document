@@ -1,0 +1,45 @@
+EMELI EMOMOTIMI BEATRICE
+VEPH/20B/DA138
+SQL Crime Investigation Report
+This report provides a summary of the SQL-based investigation into a murder case that occurred on January 15, 2018, in SQL City. The detective provided initial details, and SQL queries were used to extract critical information from the police department’s database. This report documents the investigative process, queries executed, and key findings.
+1. Investigative Process Followed
+The investigation began by locating the crime scene report in the database, focusing on the date, city, and crime type details. Once the report was found, witness information was gathered based on descriptions provided in the case file. This involved identifying witnesses from the 'person' table using address and name filters. The investigative process was systematic, starting from the crime scene details and narrowing down to individuals who could provide critical information.
+2. SQL Queries Executed and Purpose
+Below is a summary of the main SQL queries executed:
+•	- Retrieve all crime scene reports:
+•	SELECT * FROM crime_scene_report
+
+•	- Filter the report for the murder on Jan. 15, 2018 in SQL City:
+•	SELECT * FROM crime_scene_report
+WHERE date = 20180115 AND city = 'SQL City' AND crime_type = 'murder'
+
+•	- Retrieve all persons in the database:
+•	SELECT * FROM person	
+
+•	- Find the first witness living at the last house on Northwestern Dr:
+•	SELECT * FROM person
+WHERE address_street_name = 'Northwestern Dr'
+ORDER BY address_number DESC
+
+
+
+•	- Find the second witness, Annabel, living on Franklin Ave:
+•	SELECT * FROM person
+WHERE name LIKE 'Annabel%'
+AND address_street_name = 'Franklin Ave'
+
+3. Key Findings
+The investigation uncovered the following crucial findings:
+1. The crime was confirmed as a murder that occurred on January 15, 2018, in SQL City.
+2. Security footage indicated that there were two witnesses to the crime.
+3. The first witness was identified as Morty Schapiro (ID: 14887), living at 4919 Northwestern Dr.
+4. The second witness was identified as Annabel Miller (ID: 16371), living at 103 Franklin Ave.
+
+
+
+5. These witnesses provide the foundation for further investigative steps, including gathering testimonies and cross-checking with other records.
+
+Conclusion
+Through systematic use of SQL queries, the investigation successfully located the relevant crime scene report and identified two key witnesses, Morty Schapiro and Annabel Miller. This sets the stage for deeper investigation and resolution of the case.
+
+
